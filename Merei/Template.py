@@ -1,6 +1,7 @@
 import pandas as pd
 from sklearn.linear_model import LinearRegression
 
+# дату скачивай с word документа
 data = pd.read_csv("train.csv")
 model = LinearRegression()
 
